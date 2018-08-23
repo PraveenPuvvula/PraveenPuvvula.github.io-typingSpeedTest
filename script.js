@@ -35,7 +35,7 @@ function spellCheck() {
     if (textEntered == originText) {
         clearInterval(interval);
         testWrapper.style.borderColor = "#4BB543";
-        alert("I love you too Prachi!");
+        alert("Congratulations! You have passed the test!");
     } else {
         if (textEntered == originTextMatch) {
             testWrapper.style.borderColor = "#65CCF3";
